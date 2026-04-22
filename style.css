@@ -4,6 +4,7 @@ body {
   margin: 0;
   background: #f4f7fb;
   color: #333;
+  line-height: 1.5;
 }
 
 /* Header */
@@ -63,4 +64,28 @@ ul li a:hover {
 
 ul li a:hover .link-sub {
   color: #e0e0e0;
+}
+
+/* Footer Styling */
+.c-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid lightgray;
+  margin: 0 auto;
+}
+
+.c-footer__copy {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: black;
+  background-color: rgb(190, 190, 190);
+  border: 2px solid rgb(110, 110, 110);
+  border-bottom: 12px solid black;
+  border-radius: 6px;
+  width: 100%;
+  max-width: max-content;
+  padding: 0.2rem 0.5rem;
 }
